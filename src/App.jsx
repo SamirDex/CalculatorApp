@@ -34,8 +34,8 @@ function App() {
             }
         }
         else if(value == "AC") {
-            setCalc("0");
-            setResult("0"); 
+            setCalc(0);
+            setResult(0); 
             setBase(null); 
             setOperator(null)
         }
@@ -44,7 +44,7 @@ function App() {
             setResult((parseFloat(calc) * -1).toString());
         }
         else if(value == "%"){
-            if(!base !== null && operator){
+            if(base !== null && operator){
                 const newResult = eval(`${base} ${operator} ${calc / 100}`)
                 setCalc(newResult); 
                 setResult(newResult); 
