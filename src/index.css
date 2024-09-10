@@ -8,16 +8,20 @@
 body{
     font-family: "Roboto", sans-serif;
     height: 100vh;
-    background-color: #1e1e1e;
+    background-color: #6e6e6e;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.wrapper{
-    background-color: #000000;
-    width: 20rem;
-    padding: 2rem;
-    margin-top: 4rem;
-    border-radius: 1rem;
-    box-shadow: 0px 9px 15px -3px rgba(0,0,0,0.1);
+.footer{
+    width: 50%;
+    background-color: #ffffff;
+    height: 6px;
+    text-align: center;
+    border-radius: 6px;
+    margin-top: 1rem;
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translateX(-50%);
 }

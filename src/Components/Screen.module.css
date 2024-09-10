@@ -1,0 +1,15 @@
+.screen{
+    height: 15rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 100%;
+}
+.text{
+    color: #fff;
+    white-space: nowrap;
+    overflow: scroll;
+    scrollbar-width: none;
+    font-size: 4rem;
+}

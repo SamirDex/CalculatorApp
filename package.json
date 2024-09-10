@@ -10,8 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "fittext": "^1.0.1",
+    "polyton-react-textfit": "^1.1.2",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-scale-text": "^1.2.2",
+    "textfit-web-component": "^1.1.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",

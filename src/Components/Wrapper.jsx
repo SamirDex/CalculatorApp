@@ -1,8 +1,11 @@
 import React from 'react'
-
+import styles from "./Wrapper.module.css"
 const Wrapper = ({ children }) => {
     return (
-        <div className="wrapper">{children}</div>
+        <div className={styles.wrapper}>
+            {children}
+        </div>
+        
     )
 }
 
